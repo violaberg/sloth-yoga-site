@@ -22,17 +22,17 @@ h2 {
     color: #252525
 }
 
-#name {
+#logo {
     text-align: center;
     font-size: 300%;
     line-height: 100px;
 }
 
-.header img {
+#logo img {
     float: left;
     height: 100px;
     width: 100px;
-    background: #3a3a3a;
+    background: url('../images/logo.jpg');
 }
 
 /*navigation*/
