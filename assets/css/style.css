@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Shalimar&display=swap');
 
+/* Code used from Love Running project to remove browser defaults */
+
 * {
     margin: 0;
     padding: 0;
@@ -22,17 +24,25 @@ h2 {
     color: #252525
 }
 
-#logo {
+.container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
     text-align: center;
-    font-size: 300%;
+    font-size: 375%;
+    font-weight: bold;
     line-height: 100px;
 }
 
-#logo img {
+.logo-img {
     float: left;
     height: 100px;
     width: 100px;
-    background: url('../images/logo.jpg');
+    margin-top: 30px;
+    margin-left: 30px;
+    background: url('../images/logo-img.jpg');
 }
 
 /*navigation*/
@@ -62,7 +72,21 @@ h2 {
 }
 
 #hero-image {
-    height: 800px;
+    height: 600px;
     width: 100%;
-    background: url('../images/3-kids-standing.jpg') no-repeat center center;
+    padding: 10px 0 10px 0;
+    overflow: hidden;
+    background: url('../images/hero-image1.jpg') no-repeat center center;
+}
+
+/* About Us section styling*/
+
+.about-us {
+    text-align: center;
+    margin: 10px 120px 10px 120px;
+    line-height: 1.5;
+}
+
+#about-us-title {
+    font-size: 225%;
 }
