@@ -110,5 +110,6 @@ h2 {
 }
 
 .footer-icons li {
-    margin: 0 12.5px;
+    font-size: 150%;
+    margin: 0 25px;
 }
