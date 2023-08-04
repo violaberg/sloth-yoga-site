@@ -63,11 +63,11 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #17adc9;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #17adc9;
 }
 
 #hero-image {
@@ -111,5 +111,5 @@ h2 {
 
 .footer-icons li {
     font-size: 150%;
-    margin: 0 25px;
+    margin: 0 50px;
 }
