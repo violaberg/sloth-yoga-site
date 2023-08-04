@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&display=swap');
 
 /* Code used from Love Running project to remove browser defaults */
 
@@ -18,7 +18,7 @@ body {
 
 h1,
 h2 {
-    font-family: Shalimar, sans-serif;
+    font-family: Montserrat Alternates, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525
@@ -32,7 +32,6 @@ h2 {
 .logo {
     text-align: center;
     font-size: 375%;
-    font-weight: bold;
     line-height: 100px;
 }
 
@@ -42,7 +41,7 @@ h2 {
     width: 100px;
     margin-top: 30px;
     margin-left: 30px;
-    background: url('../images/logo-img.jpg');
+    background: url('../images/sloth-yoga1.png');
 }
 
 /*navigation*/
@@ -89,4 +88,27 @@ h2 {
 
 #about-us-title {
     font-size: 225%;
+}
+
+/* footer styling */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+}
+
+.footer-icons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12.5px;
+}
+
+.footer-icons li {
+    margin: 0 12.5px;
 }

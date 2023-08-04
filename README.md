@@ -35,11 +35,11 @@ Mobile wireframes:
 
 ### **Color Scheme**
 
-For color scheme I chose earthy, calming tones.
+For color scheme I chose fun, colorful tones to give site joyful feel.
 
 ### **Fonts**
 
-After checking Great vibes font for headers I noticed it gives too elegant look and doesn't suit the style so I changed header font to Shalimar as it feels more fitting yet still gives slight flowing feel and playfulness to the site and kept Montserrat Alternates for content for clean look and easy readability. I decided to choose charcoal color for font after learning during Love Running project that it is easier to read for people with poor eyesight.
+After checking Great vibes font for headers I noticed it gives too elegant look and doesn't suit the style so I changed header font to Montserrat Alternates Regular as it feels more fitting for the site and kept Montserrat Alternates Light for content for clean look and easy readability. I decided to choose charcoal color for font after learning during Love Running project that it is easier to read for people with poor eyesight.
 
 ## **Features**
 
