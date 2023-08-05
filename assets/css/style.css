@@ -113,3 +113,17 @@ h2 {
     font-size: 150%;
     margin: 0 50px;
 }
+
+/* gallery */
+
+#gallery-photos img {
+    clear: both;
+    column-count: 2;
+    width: 600px;
+    height: auto;
+    box-shadow: 2px 9px 20px rgba(0, 0, 0, 0.8);
+}
+
+#gallery-photos > img {
+    
+}
