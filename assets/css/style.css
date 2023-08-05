@@ -20,6 +20,7 @@ h1,
 h2 {
     font-family: Montserrat Alternates, sans-serif;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 4px;
     color: #252525
 }
@@ -78,11 +79,19 @@ h2 {
     background: url('../images/hero-image1.jpg') no-repeat center center;
 }
 
+/* quotation styling*/
+
+#quotation {
+    text-align: center;
+    margin: 10px 120px 10px 120px;
+    line-height: 1.5;
+}
+
 /* About Us section styling*/
 
 .about-us {
     text-align: center;
-    margin: 10px 120px 10px 120px;
+    margin: 20px 120px 10px 120px;
     line-height: 1.5;
 }
 
@@ -118,12 +127,12 @@ h2 {
 
 #gallery-photos img {
     clear: both;
-    column-count: 2;
+    column-count: 3;
     width: 600px;
     height: auto;
     box-shadow: 2px 9px 20px rgba(0, 0, 0, 0.8);
 }
 
 #gallery-photos > img {
-    
+    width:50%;
 }
