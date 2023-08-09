@@ -35,7 +35,7 @@ Mobile wireframes:
 
 ### **Color Scheme**
 
-For color scheme I chose fun, colorful tones to give site joyful feel.
+For color scheme I chose blue and yellow tones but kept them to a minimum to showcase images. Blue color is known for friendly, inviting and calming emotions, yellow is associated with joy and friendliness.
 
 ### **Fonts**
 
@@ -52,6 +52,10 @@ Shown identical on all pages as full navigation bar with links to Home, Benefits
 ### **Benefits Page**
 
 This page explains benefits of yoga practise for kids and contains small gallery.
+
+### **Gallery Page**
+
+For gallery I chose fun, colorful photos to give site joyful feel.
 
 ### **Classes Page**
 
