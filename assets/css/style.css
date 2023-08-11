@@ -183,14 +183,14 @@ input[type=text], input[type=email], input[type=number], textarea {
     width: 25%;
     padding: 10px;
     border: 1px solid #3a3a3a;
-    border-radius: 5px; /* rounded corners to match submit button*/
+    border-radius: 5px; /* rounded corners to match submit button */
     box-sizing: border-box;
     margin-top: 5px;
     margin-bottom: 15px;
     resize: vertical;
 }
 
-/* submit button styling*/
+/* submit button styling */
 
 input[type=submit] {
     background-color: #48AAAD;
@@ -203,4 +203,15 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #007791; /* submit button hover */
+}
+
+/* google map positioning*/
+
+.google-map {
+    float: right;
+    position: relative;
+}
+
+.google-map iframe {
+    margin-right: 30px;
 }
