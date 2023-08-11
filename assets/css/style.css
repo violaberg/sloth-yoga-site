@@ -170,17 +170,25 @@ h2 {
 
 /* contact us page styling*/
 
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
 /* form styling */
 
 .form {
+    flex: 1;
     font-weight: bold;
     border-radius: 5px;
     background-color: #D1EAF0;
+    margin-left: 50px;
     padding: 30px;
 }
 
-input[type=text], input[type=email], input[type=number], textarea {
-    width: 25%;
+textarea {
+    width: 100%;
     padding: 10px;
     border: 1px solid #3a3a3a;
     border-radius: 5px; /* rounded corners to match submit button */
@@ -190,12 +198,30 @@ input[type=text], input[type=email], input[type=number], textarea {
     resize: vertical;
 }
 
+input[type=text], input[type=email], input[type=number] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    /* rounded corners to match submit button */
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
 /* submit button styling */
+
+input[type=radio] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 input[type=submit] {
     background-color: #48AAAD;
     color: #252525;
     padding: 10px 20px;
+    margin-top: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -208,10 +234,10 @@ input[type=submit]:hover {
 /* google map positioning*/
 
 .google-map {
-    float: right;
-    position: relative;
+    flex: 1;
+    padding: 100px;
 }
 
 .google-map iframe {
-    margin-right: 30px;
+    margin-right: 100px;
 }
