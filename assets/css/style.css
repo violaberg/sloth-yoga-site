@@ -173,7 +173,34 @@ h2 {
 /* form styling */
 
 .form {
+    font-weight: bold;
     border-radius: 5px;
-    background-color: #d4f1f9;
-    padding: 20px;
+    background-color: #D1EAF0;
+    padding: 30px;
+}
+
+input[type=text], input[type=email], input[type=number], textarea {
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px; /* rounded corners to match submit button*/
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+/* submit button styling*/
+
+input[type=submit] {
+    background-color: #48AAAD;
+    color: #252525;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #007791; /* submit button hover */
 }
