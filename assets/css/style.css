@@ -37,7 +37,7 @@ h2 {
 
 .logo {
     text-align: center;
-    font-size: 375%;
+    font-size: 325%;
     line-height: 100px;
 }
 
@@ -69,7 +69,7 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #17adc9;
+    border-bottom: 1px solid #007791;
 }
 
 .active {
@@ -102,6 +102,7 @@ h2 {
 }
 
 #about-us-title {
+    color: #007791;
     font-size: 225%;
 }
 
@@ -109,10 +110,8 @@ h2 {
 
 .footer {
     position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-top: 20px;
+    margin: 10px 0;
+    padding: 20px 0;
     height: auto;
     width: 100vw;
 }
@@ -133,6 +132,10 @@ h2 {
 
 #benefits {
     margin: 30px 30px 30px 50px;
+}
+
+.benefits-header {
+    color: #007791;
 }
 
 .benefits-list {
@@ -156,19 +159,26 @@ h2 {
 
 /* gallery */
 
+#gallery-p {
+    margin: 0 120px;
+    padding-bottom: 30px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 30px;
+}
+
 #gallery-photos img {
-    clear: both;
-    column-count: 3;
-    width: 600px;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
     box-shadow: 2px 9px 20px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
 }
 
-#gallery-photos > img {
-    width:50%;
-}
-
-/* contact us page styling*/
+/* contact us page styling */
 
 .contact-container {
     display: flex;
@@ -185,7 +195,7 @@ h2 {
     font-weight: bold;
     border-radius: 5px;
     background-color: #D1EAF0;
-    margin-left: 50px;
+    margin-left: 70px;
     padding: 30px;
 }
 
@@ -220,6 +230,8 @@ input[type=radio] {
 }
 
 input[type=submit] {
+    font-family: Montserrat Alternates, sans-serif;
+    font-weight: bold;
     background-color: #48AAAD;
     color: #252525;
     padding: 10px 20px;
@@ -235,6 +247,17 @@ input[type=submit]:hover {
 
 /* google map positioning*/
 
+#map-header {
+    font-family: Montserrat Alternates, sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    color: #007791;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
 .google-map {
     flex: 1;
     padding: 100px;
@@ -243,6 +266,10 @@ input[type=submit]:hover {
 .google-map iframe {
     width: 800px;
     height: 650px;
-    align-items: center;
+    margin-right: -80px;
     border-radius: 5px;
+}
+
+.google-map p {
+    padding-bottom: 10px;
 }

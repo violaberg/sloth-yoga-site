@@ -51,15 +51,11 @@ Shown identical on all pages as full navigation bar with links to Home, Benefits
 
 ### **Benefits Page**
 
-This page explains benefits of yoga practise for kids and contains small gallery.
+This page explains benefits of yoga practise for kids.
 
 ### **Gallery Page**
 
 For gallery I chose fun, colorful photos to give site joyful feel.
-
-### **Classes Page**
-
-Here users can find general information about yoga classes, such as duration and times, as well as what age are classes intended for and if there is any need for equipment to be taken along.
 
 ### **Contact Us Page**
 
