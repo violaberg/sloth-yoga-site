@@ -26,7 +26,7 @@
                 <nav>
                     <ul id="menu">
                         <li>
-                            <a href="#">Contact Us</a>
+                            <a href="contact-us.html" class="active">Contact Us</a>
                         </li>
                         <li>
                             <a href="gallery.html" class="active">Gallery</a>
@@ -41,7 +41,38 @@
                 </nav>
             </div>
     </header>
-    
+    <div class="form">
+        <form action="https://formdump.codeinstitute.net" method="post">
+
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="firstname" required><br>
+
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lastname" required><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="pnumber">Phone Number</label><br>
+            <input type="number" id="pnumber" name="phonenumber"><br>
+
+            <legend>Reason:</legend>
+
+            <input type="radio" id="bookaclass" name="bookaclass" value="Book a class" required>
+            <label for="bookaclass">Book a class</label><br>
+
+            <input type="radio" id="generalinfo" name="generalinfo" value="General info">
+            <label for="generalinfo">General info</label><br>
+
+            <input type="radio" id="other" name="other" value="Other">
+            <label for="other">Other</label><br>
+
+            <label for="comments">Comments</label><br>
+            <textarea id="comments" name="comments" style="height:250px"></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
     <footer class="footer">
         <ul class="footer-icons">
             <li>

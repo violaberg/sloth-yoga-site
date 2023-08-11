@@ -167,3 +167,13 @@ h2 {
 #gallery-photos > img {
     width:50%;
 }
+
+/* contact us page styling*/
+
+/* form styling */
+
+.form {
+    border-radius: 5px;
+    background-color: #d4f1f9;
+    padding: 20px;
+}
