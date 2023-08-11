@@ -180,6 +180,8 @@ h2 {
 
 .form {
     flex: 1;
+    width: 300px;
+    height: 730px;
     font-weight: bold;
     border-radius: 5px;
     background-color: #D1EAF0;
@@ -239,5 +241,8 @@ input[type=submit]:hover {
 }
 
 .google-map iframe {
-    margin-right: 100px;
+    width: 800px;
+    height: 650px;
+    align-items: center;
+    border-radius: 5px;
 }
