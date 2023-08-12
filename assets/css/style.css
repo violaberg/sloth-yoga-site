@@ -38,7 +38,6 @@ h2 {
 .logo {
     text-align: center;
     font-size: 325%;
-    line-height: 100px;
 }
 
 .logo-img {
@@ -48,6 +47,11 @@ h2 {
     margin-top: 30px;
     margin-left: 30px;
     background: url('../images/sloth-yoga1.png');
+    border-radius: 10px;
+}
+
+header {
+    height: 120px;
 }
 
 /*navigation*/
@@ -55,6 +59,7 @@ h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
+    color: #252525;
 }
 
 #menu li {
@@ -111,9 +116,10 @@ h2 {
 /* footer styling */
 
 .footer {
+    background: radial-gradient(circle, rgba(34, 182, 195, 1) 0%, rgba(253, 242, 45, 1) 100%);
     position: relative;
-    margin: 10px 0;
-    padding: 20px 0;
+    margin-top: 10px;
+    padding: 10px 0;
     height: auto;
     width: 100vw;
 }
@@ -155,6 +161,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+.benefits-list > li:hover {
+    transform: scale(1.05);
+}
+
 .benefits-list i {
     font-size: 150%;
     margin-right: 5px;
@@ -166,6 +176,10 @@ h2 {
     font-weight: 300;
     margin-right: 30px;
     margin-left: 30px;
+}
+
+.benefits-list p:hover {
+    transform: scale(1.05);
 }
 
 /* style benefits page so list is beside image */
@@ -211,7 +225,7 @@ h2 {
     width: 100%;
     height: auto;
     box-shadow: 2px 9px 20px rgba(0, 0, 0, 0.8);
-    border-radius: 5px;
+    border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -234,8 +248,9 @@ h2 {
     width: 300px;
     height: 730px;
     font-weight: bold;
-    border-radius: 5px;
-    background-color: #D1EAF0;
+    border-radius: 10px;
+    background: radial-gradient(circle, rgba(34, 182, 195, 1) 0%, rgba(253, 242, 45, 1) 100%);
+    opacity: 0.8;
     margin-left: 70px;
     padding: 30px;
 }
@@ -244,9 +259,9 @@ textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #3a3a3a;
-    border-radius: 5px; /* rounded corners to match submit button */
+    border-radius: 10px; /* rounded corners to match submit button */
     box-sizing: border-box;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 15px;
     resize: vertical;
 }
@@ -255,7 +270,7 @@ input[type=text], input[type=email], input[type=number] {
     width: 50%;
     padding: 10px;
     border: 1px solid #3a3a3a;
-    border-radius: 5px;
+    border-radius: 10px;
     /* rounded corners to match submit button */
     box-sizing: border-box;
     margin-top: 5px;
@@ -278,7 +293,7 @@ input[type=submit] {
     padding: 10px 20px;
     margin-top: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -308,7 +323,7 @@ input[type=submit]:hover {
     width: 800px;
     height: 650px;
     margin-right: -80px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .google-map p {
