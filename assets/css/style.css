@@ -186,23 +186,37 @@ h2 {
 
 /* gallery */
 
-#gallery-p {
-    margin: 0 120px;
-    padding-bottom: 30px;
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.gallery-container {
+#gallery-p {
+    margin: 0 auto;
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+}
+
+.image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    margin: 30px;
 }
 
-#gallery-photos img {
-    max-width: 100%;
-    max-height: 100%;
+.image-grid img {
+    width: 100%;
+    height: auto;
     box-shadow: 2px 9px 20px rgba(0, 0, 0, 0.8);
     border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-grid img:hover {
+    transform: scale(1.05);
 }
 
 /* contact us page styling */
