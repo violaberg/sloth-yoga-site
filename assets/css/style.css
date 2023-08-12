@@ -88,6 +88,8 @@ h2 {
 
 #quotation {
     text-align: center;
+    font-style: italic;
+    font-size: 120%;
     margin: 10px 120px 10px 120px;
     line-height: 1.5;
 }
@@ -131,7 +133,8 @@ h2 {
 /* styling benefits page */
 
 #benefits {
-    margin: 30px 30px 30px 50px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .benefits-header {
@@ -139,7 +142,7 @@ h2 {
 }
 
 .benefits-list {
-    list-style-type: disc;
+    list-style-type: none;
     font-family: Montserrat Alternates, sans-serif;
     text-align: left;
     margin: 30px 30px 30px 50px;
@@ -152,9 +155,17 @@ h2 {
     margin-bottom: 10px;
 }
 
+.benefits-list i {
+    font-size: 150%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
 .benefits-list p {
     color: #3a3a3a;
     font-weight: 300;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 /* gallery */
