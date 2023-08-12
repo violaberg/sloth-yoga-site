@@ -161,6 +161,8 @@ header {
     margin-bottom: 10px;
 }
 
+/* scales up benefit list with mouse over */
+
 .benefits-list > li:hover {
     transform: scale(1.05);
 }
@@ -177,6 +179,8 @@ header {
     margin-right: 30px;
     margin-left: 30px;
 }
+
+/* scales up text with mouse over */
 
 .benefits-list p:hover {
     transform: scale(1.05);
