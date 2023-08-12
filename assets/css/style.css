@@ -168,6 +168,11 @@ h2 {
     margin-left: 30px;
 }
 
+.benefits-image {
+    align-items: center;
+    position: relative;
+}
+
 /* gallery */
 
 #gallery-p {
