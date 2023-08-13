@@ -256,6 +256,7 @@ header {
     line-height: 1.5;
     margin-left: 120px;
     margin-right: 120px;
+    margin-bottom: 20px;
     padding-top: 30px;
 }
 
@@ -270,7 +271,7 @@ header {
     box-shadow: 2px 9px 20px rgba(0, 0, 0, 0.8);
     background: url('../images/form-background-1.jpg') no-repeat center center;
     opacity: 0.8;
-    margin-left: 70px;
+    margin-left: 100px;
     padding: 30px;
 }
 
@@ -289,7 +290,7 @@ input[type=text], input[type=email], input[type=number] {
     width: 50%;
     padding: 5px;
     border: 1px solid #3a3a3a;
-    border-radius: 10px; / * rounded corners to match submit button */
+    border-radius: 10px; /* rounded corners to match submit button */
     box-sizing: border-box;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -334,7 +335,7 @@ input[type=submit]:hover {
 
 .google-map {
     flex: 1;
-    padding: 100px;
+    padding: 30px;
 }
 
 .google-map iframe {
@@ -348,4 +349,31 @@ input[type=submit]:hover {
 .google-map p {
     padding-bottom: 20px;
     line-height: 1.5;
+}
+
+/* opening hours styling */
+
+.opening-hours {
+    text-align: center;
+    margin: 0 0 0 20px;
+    padding: 20px;
+}
+
+.opening-hours h2 {
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
+.opening-hours ul {
+    list-style: none;
+    padding: 0;
+}
+
+.opening-hours li {
+    margin-bottom: 5px;
+}
+
+.opening-hours li strong {
+    display: inline-block;
+    width: 100%;
 }
