@@ -258,6 +258,7 @@ header {
     height: 730px;
     font-weight: bold;
     border-radius: 10px;
+    box-shadow: 2px 9px 20px rgba(0, 0, 0, 0.8);
     background: url('../images/form-background-1.jpg') no-repeat center center;
     opacity: 0.8;
     margin-left: 70px;
@@ -333,6 +334,7 @@ input[type=submit]:hover {
     height: 650px;
     margin-right: -80px;
     border-radius: 10px;
+    box-shadow: 2px 9px 20px rgba(0, 0, 0, 0.8);
 }
 
 .google-map p {
