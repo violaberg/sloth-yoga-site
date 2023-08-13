@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-Sloth Yoga is a site for kids yoga studio based in Dublin, Ireland. The goal is to draw interest to Sloth Yoga studio, while highlighting benefits of becoming a yogi. Yoga is for everyone but promoting healthy habits and self care to kids at early age through yoga practise builds basis of healthier lifestyle.
+Sloth Yoga is a site for kids yoga studio based in Dublin, Ireland. Based in Castleknock, Dublin we are never too far away. The idea about yoga studio for kids was born after our son was struggling to regulate his emotions, therefore getting upset and angry very often. With my yoga and an exercise knowledge, we started a fun and exiting journey of helping many more. We are passionate about yoga and benefits it gives to not only adults but children alike. The goal of website is to draw interest to Sloth Yoga studio, while highlighting benefits of becoming a yogi. Yoga is for everyone but promoting healthy habits and self care to kids at early age through yoga practise builds basis of healthier lifestyle.
 
 ## **Planning**
 
@@ -29,13 +29,13 @@ To give people way to contact yoga studio and find location easily.
 
 ### **Wireframes**
 
-For this project I made desktop and mobile wireframes to help with site planning and design. Please find links bellow:
+For this project I made desktop and mobile wireframes to help with site planning and design. While I made a few changes as I went along, please find original wireframes bellow:
 Desktop wireframes:
 Mobile wireframes:
 
 ### **Color Scheme**
 
-For color scheme I chose blue and yellow tones but kept them to a minimum to showcase images. Blue color is known for friendly, inviting and calming emotions, yellow is associated with joy and friendliness.
+For color scheme I chose blue and yellow tones but kept them to a minimum to keep website light and showcase info and images. Blue color is known for friendly, inviting and calming emotions, yellow is associated with joy and friendliness.
 
 ### **Fonts**
 
@@ -63,7 +63,7 @@ This page allows user to contact studio to book a yoga class or ask any addition
 
 ### **Footer**
 
-The footer contains social media icons so users can keep in touch.
+The footer contains social media icons so users can keep in touch. I added gradient background to footer to give a little color to website.
 
 ## **Testing**
 
