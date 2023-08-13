@@ -23,7 +23,7 @@ As a user, I want to find location of studio easily.
 
 ### **Site goals**
 
-To reach out for clients for yoga studio.
+To reach out to clients for yoga studio.
 To educate kids, parents and people in general about benefits of kids yoga.
 To give people way to contact yoga studio and find location easily.
 
@@ -61,7 +61,7 @@ For gallery I chose fun, colorful photos to give site joyful feel and added a sh
 
 ### **Contact Us Page**
 
-This page allows user to contact studio through form to book a yoga class or ask any additional questions that may arise, find opening times and location of Sloth Yoga studio.
+This page allows user to contact studio through form to book a yoga class or ask any additional questions that may arise, find opening times and location of Sloth Yoga studio on map.
 
 ### **Footer**
 
