@@ -49,21 +49,23 @@ Shown identical on all pages as full navigation bar with links to Home, Benefits
 
 ### **Hero image**
 
+For hero image I chose a vector that is not too heavy and had minimalistic style.
+
 ### **Benefits Page**
 
-This page explains benefits of yoga practise for kids.
+This page explains benefits wit explanation of yoga practise for kids.
 
 ### **Gallery Page**
 
-For gallery I chose fun, colorful photos to give site joyful feel.
+For gallery I chose fun, colorful photos to give site joyful feel and added a short paragraph.
 
 ### **Contact Us Page**
 
-This page allows user to contact studio to book a yoga class or ask any additional questions that may arise, find opening times and location of Sloth Yoga studio.
+This page allows user to contact studio through form to book a yoga class or ask any additional questions that may arise, find opening times and location of Sloth Yoga studio.
 
 ### **Footer**
 
-The footer contains social media icons so users can keep in touch. I added gradient background to footer to give a little color to website.
+The footer contains social media icons so users can keep in touch. I added gradient background to footer to give a little color to website by using <https://cssgradient.io/> to get smooth gradient from yellow to blue to yellow again.
 
 ## **Testing**
 
