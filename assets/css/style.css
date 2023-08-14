@@ -238,7 +238,7 @@ header {
 }
 
 .image-grid img {
-    width: 85%;
+    width: 90%;
     height: auto;
     box-shadow: 2px 9px 20px rgba(0, 0, 0, 0.8);
     border-radius: 10px;
@@ -248,6 +248,8 @@ header {
 .image-grid img:hover {
     transform: scale(1.05);
 }
+
+/* position images in gallery individually */
 
 .image-grid img:nth-child(1) {
     margin-top: 30px;
@@ -261,7 +263,6 @@ header {
 
 .image-grid img:nth-child(3) {
     margin-top: 30px;
-    margin-right: 60px;
 }
 
 .image-grid img:nth-child(4) {
@@ -279,6 +280,7 @@ header {
 
 .image-grid img:nth-child(7) {
     margin-left: 60px;
+    margin-bottom: 30px;
 }
 
 .image-grid img:nth-child(8) {
@@ -286,8 +288,8 @@ header {
     margin-left: 30px;
 }
 
-.image-grid img:nth-child(7) {
-    margin-top: 30px;
+.image-grid img:nth-child(9) {
+    margin-bottom: 30px;
 }
 
 /* contact us page styling */
