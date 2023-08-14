@@ -459,3 +459,11 @@ input[type=submit]:hover {
     margin: 0 auto;
     padding-bottom: 30px;
 }
+
+.thank-you-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
