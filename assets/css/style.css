@@ -137,6 +137,15 @@ header {
     margin: 0 50px;
 }
 
+/* copyright styling and positioning */
+
+.copyright {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    color: #252525;
+}
+
 /* styling benefits page */
 
 #benefits {
