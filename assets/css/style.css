@@ -37,9 +37,9 @@ h2 {
 }
 
 .logo {
+    text-decoration: none;
     text-align: center;
     font-size: 325%;
-    text-decoration: none;
 }
 
 .logo-img {
@@ -156,6 +156,7 @@ header {
 
 .benefits-header {
     color: #007791;
+    margin-top: 30px;
 }
 
 .benefits-list {
