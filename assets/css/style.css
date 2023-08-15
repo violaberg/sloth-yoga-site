@@ -504,6 +504,9 @@ input[type=submit]:hover {
         padding: 15px;
         margin: 0;
     }
+
+/* hero image styling */
+
     #hero-image {
         height: auto;
         width: 100%;
@@ -522,6 +525,9 @@ input[type=submit]:hover {
         margin-left: 30px;
         margin-right: 30px;
     }
+
+    /* main content styling for Home page */
+
     .about-us {
         width: 100%;
         padding: 0;
@@ -538,6 +544,9 @@ input[type=submit]:hover {
     h1#about-us-title {
         font-size: 100%;
     }
+
+    /* footer styling */
+
     p.copyright {
         position: static;
         font-size: 60%;
@@ -563,6 +572,9 @@ input[type=submit]:hover {
         margin-left: 40px;
         margin-right: 40px;
     }
+
+    /* Benefits page styling */
+
     .benefits-header {
         font-size: 100%;
     }
@@ -578,7 +590,7 @@ input[type=submit]:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 1auto;
+        height: auto;
         font-size: 70%;
         width: 100%;
         padding: 0;
@@ -603,6 +615,9 @@ input[type=submit]:hover {
         margin-right: 30px;
         margin-bottom: 30px;
     }
+
+    /* Gallery page styling */
+
     #gallery-p {
         font-size: 70%;
         width: 100%;
@@ -663,5 +678,67 @@ input[type=submit]:hover {
         padding: 0;
         margin-left: 100px;
         margin-bottom: 60px;
+    }
+
+    /* Contact Us page styling */
+
+    #contact-us-paragragh {
+        font-size: 70%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .contact-container {
+        flex-direction: column;
+    }
+    .form, .google-map, .opening-hours {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* form styling */
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 400px;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    /* map styling */
+    .google-map {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        font-size: 70%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #map-header {
+        font-size: 100%;
+    }
+    .google-map p {
+        font-size: 70%;
+        padding: 0;
+        margin: 0;
+    }
+    .google-map iframe {
+        width: 100vw;
+    }
+
+    /* styling for opening hours */
+
+    .opening-hours {
+        font-size: 50%;
+        padding: 0;
+        margin-bottom: 50px;
     }
 }
