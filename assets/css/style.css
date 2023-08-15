@@ -788,6 +788,53 @@ input[type=submit]:hover {
     /* header and nav styling */
         
     @media (max-width: 767px) {
+        /* Gallery page styling */
+
+    #gallery-p {
+        font-size: 70%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    #gallery-photos {
+        padding: 30px 0 0 0;
+        margin: 0;
+    }  
+    .image-grid img {
+        padding: 0;
+        margin: 0;
+    }
+    .image-grid img:nth-child(1) {
+        margin-left: 20px;
+    }
+    
+    .image-grid img:nth-child(2) {
+        margin-left: 10px;
+    }
+    
+    .image-grid img:nth-child(4) {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    .image-grid img:nth-child(5) {
+        margin-left: 10px;
+    }
+    
+    .image-grid img:nth-child(6) {
+        margin-top: 10px;
+    }
+    
+    .image-grid img:nth-child(7) {
+        margin-left: 20px;
+    }
+    
+    .image-grid img:nth-child(8) {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+        
     /* Thank You page styling */
         
     .thank-you-container {
