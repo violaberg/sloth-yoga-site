@@ -709,6 +709,12 @@ input[type=submit]:hover {
         margin: 20px;
         padding: 20px;
     }
+    .form-label {
+        font-size: 90;
+    }
+    input[type=text], input[type=email], input[type=number] {
+        width: 50%;
+    }
 
     /* map styling */
     .google-map {
