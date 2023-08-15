@@ -769,8 +769,7 @@ input[type=submit]:hover {
         margin: 0;
         padding: 0;
         overflow: hidden;
-    }
-
+    }    
     .thank-you-header {
         font-size: 100%;
         margin-top: -50px;
@@ -782,5 +781,40 @@ input[type=submit]:hover {
         width: 100%;
         height: auto;
         margin: 0;
+    }
+}
+        
+    /* for screen size over 481px and under 767px wide */
+    /* header and nav styling */
+        
+    @media (max-width: 767px) {
+    /* Thank You page styling */
+        
+    .thank-you-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -50px;
+        margin-right: 50px;
+    }
+    .thank-you-header {
+        font-size: 110%;
+        margin-top: -50px;
+        margin-right: 570px;
+    }
+    .thank-you-message {
+        font-size: 100%;
+        text-align: center;
+        margin-left: -30px;
+        margin-right: 70px;
+        margin-bottom: 30px;
+    }
+    .thank-you-img {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        padding: 0;
+        margin-left: -30px;
     }
 }
