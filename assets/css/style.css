@@ -37,7 +37,6 @@ h2 {
 }
 
 .logo {
-    text-decoration: none;
     text-align: center;
     font-size: 325%;
 }
@@ -79,6 +78,10 @@ header {
 
 #menu li a:hover {
     border-bottom: 1px solid #007791;
+}
+
+a:not(active) {
+    text-decoration: none;
 }
 
 #hero-image {
