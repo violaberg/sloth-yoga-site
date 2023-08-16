@@ -447,9 +447,17 @@ input[type=submit]:hover {
 
 /* thank you page styling */
 
+.thank-you-logo {
+    font-size: 325%;
+    position: relative;
+    top: 50px;
+    margin-right: 200px;
+}
+
 .thank-you-header {
     color: #007791;
     margin-top: 30px;
+    margin-right: 100px;
     margin-bottom: 30px;
 }
 
@@ -458,6 +466,7 @@ input[type=submit]:hover {
     font-size: 120%;
     font-style: italic;
     line-height: 1.5;
+    margin-right: 100px;
     margin-bottom: 60px;
 }
 
@@ -465,6 +474,7 @@ input[type=submit]:hover {
     display: block;
     margin: 0 auto;
     padding-bottom: 30px;
+    margin-right: 260px;
 }
 
 .thank-you-container {
@@ -472,6 +482,7 @@ input[type=submit]:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 80px;
     height: 100vh;
 }
 
@@ -819,9 +830,11 @@ input[type=submit]:hover {
     .thank-you-header {
         font-size: 100%;
         margin-top: -50px;
+        margin-left: 70px;
     }
     .thank-you-message {
         font-size: 90%;
+        margin-left: 60px;
     }
     .thank-you-img {
         width: 90vw;
