@@ -1387,7 +1387,8 @@ input[type=submit]:hover {
     }
     .thank-you-img {
         width: 80vw;
-        margin-left: 50px;
+        margin-left: 40px;
+        margin-right: 70px;
     }
 }
 
