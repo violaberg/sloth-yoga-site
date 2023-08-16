@@ -785,11 +785,10 @@ input[type=submit]:hover {
 }
         
     /* for screen size over 481px and under 767px wide */
-    /* header and nav styling */
         
     @media (max-width: 767px) {
 
-        /* header and nav bar styling */
+    /* header and nav bar styling */
 
     .logo {
         font-size: 250%;
@@ -799,10 +798,10 @@ input[type=submit]:hover {
         font-size: 90%;
         font-weight: bold;
         padding-top: 0;
-        margin: 0;
-        }
+        margin-top: -20px;
+    }
 
-        /* Home page content styling */
+    /* Home page content styling */
 
     #hero-image {
         width: 100%;
@@ -857,7 +856,7 @@ input[type=submit]:hover {
     
     .benefits-header {
         font-size: 150%;
-        margin-top: 60px;
+        margin-top: 40px;
         padding-top: 30px;
         padding-bottom: 20px;
     }
@@ -907,7 +906,7 @@ input[type=submit]:hover {
         font-size: 90%;
         padding-top: 30px;
         padding-right: 30px;
-        margin-top: 50px;
+        margin-top: 40px;
         margin-right: 20px;
         margin-left: 40px;
         margin-bottom: 0;
@@ -950,34 +949,148 @@ input[type=submit]:hover {
         margin-top: 10px;
         margin-left: 10px;
     }
+
+    /* Contact Us page styling */
         
+    #contact-us-paragragh {
+        font-size: 90%;
+        width: 95vw;
+        padding-top: 30px;
+        margin-top: 40px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .contact-container {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .form, .google-map, .opening-hours {
+        width: 100%;
+        margin: 0;
+    }
+        
+    /* form styling */
+        
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        width: 100%;
+        max-width: 600px;
+        margin: 20px;
+        padding: 20px;
+    }
+    label {
+        font-size: 90%;
+        margin-left: 10px;
+    }
+    legend {
+        font-size: 90%;
+        margin-left: 10px;
+    }
+    input[type=text], input[type=email], input[type=number] {
+        width: 80%;
+        padding: 8px;
+        font-size: 90%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
+    #comments {
+        width: 80%;
+        margin-left: 10px;
+    }
+    input[type="radio"] {
+        margin-left: 10px;
+    }
+    .form-button {
+        font-size: 90%;
+        padding: 8px 15px;
+    }
+        
+    /* map styling */
+
+    .google-map {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 600px;
+        margin: 0;
+        padding: 0;
+    }
+        
+    #map-header {
+        font-size: 110%;
+        text-align: center;
+        margin-right: 30px;
+        padding-top: 20px;
+    }
+        
+    .google-map p {
+        font-size: 90%;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+        
+    .google-map iframe {
+        width: 100%;
+        height: 400px;
+        margin-right: 0;
+        padding: 0;
+    }
+        
+    /* styling for opening hours */
+        
+    .opening-hours {
+        font-size: 90%;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-left: 0;
+    }
+
     /* Thank You page styling */
-        
+
+    .logo {
+        font-size: 250%;
+        margin-right: 0;
+    }
+    #menu {
+        font-size: 90%;
+        font-weight: bold;
+        padding-top: 0;
+        margin-top: -20px;
+    }
     .thank-you-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: -50px;
-        margin-right: 50px;
+        width: 60vw;
+        margin-left: 40px;
+        margin-right: 10px;
     }
     .thank-you-header {
-        font-size: 110%;
-        margin-top: -50px;
-        margin-right: 570px;
+        font-size: 150%;
+        margin-top: 30px;
+        margin-right: 30px;
+        text-align: center;
     }
     .thank-you-message {
         font-size: 100%;
         text-align: center;
-        margin-left: -30px;
-        margin-right: 70px;
+        margin-left: 15px;
+        margin-right: 50px;
         margin-bottom: 30px;
     }
     .thank-you-img {
-        width: 100%;
+        width: 70vw;
         height: auto;
         align-items: center;
         padding: 0;
-        margin-left: -30px;
+        margin-left: -10px;
+        margin-right: 20px;
     }
 }
