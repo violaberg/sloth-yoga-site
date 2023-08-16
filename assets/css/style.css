@@ -1320,3 +1320,60 @@ input[type=submit]:hover {
         margin-left: -50px;
     }
 }
+
+/* for screen size over 1025px and under 1200px wide */
+    
+@media (max-width: 1200px) and (min-width: 1025px) {
+    
+/* Benefits page styling */
+
+    .benefits-image img {
+        width: 40vw;
+    }
+
+/* Contact Us page styling */
+
+    .form {
+        margin-left: 25px;
+    }
+    #map-header {
+        padding-bottom: 0;
+    }
+    .google-map p {
+        padding-bottom: 10px;
+    }
+    .google-map iframe {
+        width: 600px;
+        margin-right: 5px;
+    }
+
+/* Thank You page styling */
+
+    .thank-you-nav {
+        margin-top: 20px;
+    }
+
+    .thank-you-logo {
+        font-size: 325%;
+        text-align: center;
+        position: relative;
+        top: 60px;
+        margin-right: 420px;
+    }
+    #menu {
+        font-size: 110%;
+    }
+    .thank-you-container {
+        margin-right: 50px;
+    }
+    .thank-you-header {
+        margin-left: -50px;
+    }
+    .thank-you-message {
+        margin-right: 100px;
+    }
+    .thank-you-img {
+        width: 80vw;
+        margin-left: -50px;
+    }
+}
