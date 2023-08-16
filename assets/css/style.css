@@ -1377,3 +1377,28 @@ input[type=submit]:hover {
         margin-left: -50px;
     }
 }
+
+/* for screen size over 1201px wide */
+
+@media (max-width: 1800px) and (min-width: 1201px) {
+    
+    /* Contact Us page styling */
+
+    .form {
+        margin-left: 60px;
+    }
+    .google-map iframe {
+        width: 700px;
+    }
+
+    /* Thank You page styling */
+
+    .thank-you-logo {
+        font-size: 325%;
+        position: relative;
+        top: 50px
+    }
+    .thank-you-container {
+        margin-right: 100px;
+    }
+}
