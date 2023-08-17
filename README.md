@@ -32,6 +32,7 @@ Sloth Yoga is a site for kids yoga studio based in Dublin, Ireland. Based in Cas
 ### **Wireframes**
 
 For this project I made desktop and mobile wireframes to help with site planning and design. While I made a few changes as I went along, please find original wireframes bellow:
+
 * Desktop wireframes:
   * [Home Page](assets/wireframes/home_page_sloth_yoga.png)
   * [Benefits Page](assets/wireframes/benefits_page_sloth_yoga.png)
@@ -75,6 +76,7 @@ For hero image I chose a vector that is not too heavy and had minimalistic style
 ### **Home Page**
 
 Home Page features hero image with a short quote under it and a short introduction about us as a Sloth Yoga studio and why it was our decision to open one to give users some story behind it.
+
 #### *Quote:* "Yoga is the perfect opportunity to be curious about who you are" Jason Crandell
 
 ### **Benefits Page**
@@ -129,7 +131,7 @@ Content was written by myself with some helpful websites for Benefits Page that 
 
 ### **Media**
 
-* Photos for Gallery Page from [Pexels website](https://www.pexels.com/): 
+* Photos for Gallery Page from [Pexels website](https://www.pexels.com/):
   * [Photo by Laysla Loyse](https://www.pexels.com/photo/girl-standing-in-raja-bhujangasana-pose-at-home-4256377/)
   * [Photo by Yan Krukau](https://www.pexels.com/photo/active-children-doing-balancing-exercises-8613312/)
   * [Photo by Lena Helfinger](https://www.pexels.com/photo/girl-in-white-shirt-and-black-pants-lying-on-blue-exercise-ball-3992594/)
