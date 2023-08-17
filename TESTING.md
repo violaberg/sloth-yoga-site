@@ -29,6 +29,14 @@
   
 * **Wanted Outcome** - The same header on all pages.
   * ***Issue Found and solution used*** - Couldn't style header on Thank You Pages. It wasn't responding to code so I made a separate class .thank-you-header.
+  
+* **Wanted Outcome** - Legend for reasons radio buttons.
+  * ***Issue Found and solution used*** - Couldn't use legend as a child as per validator. Changed to h2:
+![Error screenshot](assets/screenshots/legend-error.jpg)
+
+* **Wanted Outcome** - Navigation bar.
+  * ***Issue Found and solution used*** - I didn't close .div tag as per validator. Checked the code and closed it:
+![Error screenshot](assets/screenshots/open-tag.jpg)
 
 ## **Testing after development**
 
@@ -40,7 +48,7 @@ I was delighted to have just 2 identical errors in validator that were very quic
 
 ### **Lighthouse**
 
-I was delighted with results. Performace was slightly lower on pages with images but my network sometimes can be very slow too. Here are screenshots from each page:
+I was delighted with results. Performace was slightly lower on pages with images but my network sometimes can be very slow too so I wasn't surprised. I took some screenshots as results were close all the time. Here are screenshots from each page:
 
 * Home page:
 
