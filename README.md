@@ -95,7 +95,7 @@ This page allows user to contact studio through form to book a yoga class or ask
 ### **Thank You Page**
 
 Thank You Page features a thank you message and an image after form has been filled out and submitted.
-![Thank You Page image(assets/images/thank-you-img.jpg)
+![Thank You Page image](assets/images/thank-you-img.jpg)
 
 ### **Footer**
 
@@ -149,6 +149,7 @@ Content was written by myself with some helpful websites for Benefits Page that 
   * [Healthy Children website](https://www.healthychildren.org/English/healthy-living/emotional-wellness/Pages/Permission-to-Unplug-The-Health-Benefits-of-Yoga-for-Kids.aspx)
 
 * All icons are from [Font Awesome](https://fontawesome.com/)
+* Favicon was generated with [Faviconer](http://www.faviconer.com/)
 
 ## **Future development**
 
