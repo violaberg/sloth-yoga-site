@@ -5,10 +5,10 @@
 * Manually tested each element for appearance and responsiveness with Dev Tools.
 * Asked friends and family to use website.
 * During testing I checked few browsers to ensure compatibility:
-  *  Mozilla Firefox - GOOD
-  *  Microsoft Edge - GOOD
-  *  Chrome - GOOD
-  *  Safari - Didn't test as I don't have IOS
+  * ***Mozilla Firefox*** - GOOD
+  * ***Microsoft Edge*** - GOOD
+  * ***Chrome*** - GOOD
+  * ***Safari*** - Didn't test as I don't have IOS
 
 ### **Bugs and fixes**
 
