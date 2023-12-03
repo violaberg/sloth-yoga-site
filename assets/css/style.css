@@ -1,25 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&display=swap');
 
 /* Code used from Love Running project to remove browser defaults */
-
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-body {
+body, h1, h2, .benefits-list, textarea, #map-header, input[type=text],
+input[type=email],
+input[type=number], input[type=submit] {
     font-family: Montserrat Alternates, sans-serif;
+}
+
+body {
     font-weight: 300;
     color: #3a3a3a;
     overflow-x: hidden;
 }
 
 /* logo and headings*/
-
 h1,
 h2 {
-    font-family: Montserrat Alternates, sans-serif;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
@@ -92,15 +94,14 @@ a:not(active) {
     align-items: center;
     padding: 10px 0 10px 0;
     overflow: hidden;
-    /* background: url('../images/hero-image1.jpg') no-repeat center center; */
 }
 
 #hero-image img {
     max-width: 100%;
     height: auto;
 }
-/* quotation styling*/
 
+/* quotation styling*/
 #quotation {
     text-align: center;
     font-style: italic;
@@ -110,7 +111,6 @@ a:not(active) {
 }
 
 /* About Us section styling*/
-
 .about-us {
     text-align: center;
     margin: 0 120px 30px;
@@ -124,7 +124,6 @@ a:not(active) {
 }
 
 /* footer styling */
-
 .footer {
     background: radial-gradient(circle, rgba(34, 182, 195, 1) 0%, rgba(253, 242, 45, 1) 100%);
     position: sticky;
@@ -148,7 +147,6 @@ a:not(active) {
 }
 
 /* copyright styling and positioning */
-
 .copyright {
     position: absolute;
     bottom: 15px;
@@ -157,7 +155,6 @@ a:not(active) {
 }
 
 /* styling benefits page */
-
 #benefits {
     text-align: center;
     margin: 10px 120px;
@@ -171,7 +168,6 @@ a:not(active) {
 
 .benefits-list {
     list-style-type: none;
-    font-family: Montserrat Alternates, sans-serif;
     text-align: left;
     margin: 30px 30px 30px 50px;
     color: #252525
@@ -184,7 +180,6 @@ a:not(active) {
 }
 
 /* scales up benefit list with mouse over */
-
 .benefits-list > li:hover {
     transform: scale(1.05);
 }
@@ -204,13 +199,11 @@ a:not(active) {
 }
 
 /* scales up text with mouse over */
-
 .benefits-list p:hover {
     transform: scale(1.05);
 }
 
 /* style benefits page so list is beside image */
-
 .benefits-container {
     display: flex;
     flex-direction: row;
@@ -226,7 +219,6 @@ a:not(active) {
 }
 
 /* gallery */
-
 .gallery-container {
     display: flex;
     justify-content: center;
@@ -261,7 +253,6 @@ a:not(active) {
 }
 
 /* position images in gallery individually */
-
 .image-grid img:nth-child(1) {
     margin-top: 30px;
     margin-left: 60px;
@@ -304,7 +295,6 @@ a:not(active) {
 }
 
 /* contact us page styling */
-
 .contact-container {
     display: flex;
     flex-direction: row;
@@ -313,7 +303,6 @@ a:not(active) {
 }
 
 /* contact us page paragragh styling */
-
 #contact-us-paragraph {
     text-align: center;
     line-height: 1.5;
@@ -324,7 +313,6 @@ a:not(active) {
 }
 
 /* form styling */
-
 .form {
     flex: 1;
     width: 200px;
@@ -339,7 +327,6 @@ a:not(active) {
 }
 
 textarea {
-    font-family: Montserrat Alternates, sans-serif;
     width: 100%;
     padding: 5px;
     border: 1px solid #3a3a3a;
@@ -351,7 +338,6 @@ textarea {
 }
 
 input[type=text], input[type=email], input[type=number] {
-    font-family: Montserrat Alternates, sans-serif;
     width: 50%;
     padding: 5px;
     border: 1px solid #3a3a3a;
@@ -363,14 +349,12 @@ input[type=text], input[type=email], input[type=number] {
 }
 
 /* submit button styling */
-
 input[type=radio] {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 input[type=submit] {
-    font-family: Montserrat Alternates, sans-serif;
     font-weight: bold;
     background-color: #48AAAD;
     color: #252525;
@@ -386,9 +370,7 @@ input[type=submit]:hover {
 }
 
 /* google map positioning*/
-
 #map-header {
-    font-family: Montserrat Alternates, sans-serif;
     font-size: 200%;
     font-weight: bold;
     color: #007791;
@@ -419,7 +401,6 @@ input[type=submit]:hover {
 }
 
 /* opening hours styling */
-
 .opening-hours {
     text-align: center;
     margin: 0 0 0 20px;
@@ -446,7 +427,6 @@ input[type=submit]:hover {
 }
 
 /* thank you page styling */
-
 .thank-you-logo {
     font-size: 325%;
     position: relative;
@@ -488,7 +468,6 @@ input[type=submit]:hover {
 
 /* for screen size over 360px and under 480px wide */
 /* header and nav styling */
-
 @media (max-width: 480px) and (min-width: 360px){
     .flex-container div {
         justify-content: center;
@@ -524,7 +503,6 @@ input[type=submit]:hover {
     }
 
 /* hero image styling */
-
     #hero-image {
         height: auto;
         width: 100%;
@@ -547,7 +525,6 @@ input[type=submit]:hover {
     }
 
     /* main content styling for Home page */
-
     .about-us {
         width: 100%;
         padding-top: 20px;
@@ -567,7 +544,6 @@ input[type=submit]:hover {
     }
 
     /* footer styling */
-
     .copyright {
         position: static;
         font-size: 60%;
@@ -595,7 +571,6 @@ input[type=submit]:hover {
     }
 
     /* Benefits page styling */
-
     h1.benefits-header {
         margin-top: 0;
         font-size: 100%;
@@ -646,7 +621,6 @@ input[type=submit]:hover {
     }
 
     /* Gallery page styling */
-
     p#gallery-p {
         font-size: 90%;
         width: 90vw;
@@ -721,7 +695,6 @@ input[type=submit]:hover {
     }
 
     /* Contact Us page styling */
-
     #contact-us-paragraph {
         font-size: 80%;
         width: 90vw;
@@ -740,7 +713,6 @@ input[type=submit]:hover {
     }
 
     /* form styling */
-
     .form {
         display: flex;
         flex-direction: column;
@@ -769,7 +741,6 @@ input[type=submit]:hover {
     }
 
     /* map styling */
-
     .google-map {
         display: flex;
         flex-direction: column;
@@ -799,7 +770,6 @@ input[type=submit]:hover {
     }
 
     /* styling for opening hours */
-
     .opening-hours {
         font-size: 80%;
         padding: 30px 0;
@@ -807,7 +777,6 @@ input[type=submit]:hover {
     }
 
     /* Thank You page styling */
-
     .thank-you-logo {
         font-size: 120%;
         top: 40px;
@@ -843,12 +812,10 @@ input[type=submit]:hover {
     }
 }
         
-    /* for screen size over 481px and under 767px wide */
-        
-    @media (max-width: 767px) and (min-width: 481px) {
+/* for screen size over 481px and under 767px wide */
+@media (max-width: 767px) and (min-width: 481px) {
 
     /* header and nav bar styling */
-
     .logo {
         font-size: 250%;
         margin-right: 0;
@@ -861,7 +828,6 @@ input[type=submit]:hover {
     }
 
     /* Home page content styling */
-
     #hero-image {
         width: 100%;
         margin: 0;
@@ -899,7 +865,6 @@ input[type=submit]:hover {
     }
     
     /* footer styling */
-
     .copyright {
         font-size: 80%;
         bottom: 5px;
@@ -912,7 +877,7 @@ input[type=submit]:hover {
     }
 
     /* Benefits page styling */
-    
+
     .benefits-header {
         font-size: 150%;
         margin-top: 40px;
@@ -960,7 +925,6 @@ input[type=submit]:hover {
     }
 
     /* Gallery page styling */
-
     #gallery-p {
         font-size: 90%;
         padding-top: 30px;
@@ -1010,7 +974,6 @@ input[type=submit]:hover {
     }
 
     /* Contact Us page styling */
-        
     #contact-us-paragraph {
         font-size: 90%;
         width: 95vw;
@@ -1029,7 +992,6 @@ input[type=submit]:hover {
     }
         
     /* form styling */
-        
     .form {
         display: flex;
         flex-direction: column;
@@ -1069,7 +1031,6 @@ input[type=submit]:hover {
     }
         
     /* map styling */
-
     .google-map {
         display: flex;
         flex-direction: column;
@@ -1099,7 +1060,6 @@ input[type=submit]:hover {
     }
         
     /* styling for opening hours */
-        
     .opening-hours {
         font-size: 90%;
         padding-top: 30px;
@@ -1108,7 +1068,6 @@ input[type=submit]:hover {
     }
 
     /* Thank You page styling */
-
     .thank-you-logo {
         font-size: 250%;
         top: 50px;
@@ -1157,11 +1116,9 @@ input[type=submit]:hover {
 }
 
 /* for screen size over 768px and under 1024px wide */
-
 @media (max-width: 1024px) and (min-width: 768px) {
 
 /* header and nav bar styling */
-
     .logo {
         font-size: 250%;
         margin-right: 0;
@@ -1178,7 +1135,6 @@ input[type=submit]:hover {
     }
 
     /* Home page styling */
-
     #quotation {
         margin-top: -20px;
     }
@@ -1193,7 +1149,6 @@ input[type=submit]:hover {
     }
 
 /* Benefits page styling */
-
     .benefits-header {
         font-size: 150%;
         padding-bottom: 10px;
@@ -1210,8 +1165,8 @@ input[type=submit]:hover {
     .benefits-image img {
         width: 40vw;
     }
-/* Contact Us page styling */
 
+/* Contact Us page styling */
     .contact-container {
         flex-direction: column;
         margin: 0 20px;
@@ -1222,7 +1177,6 @@ input[type=submit]:hover {
     }
 
     /* form styling */
-
     .form {
         display: flex;
         flex-direction: column;
@@ -1262,7 +1216,6 @@ input[type=submit]:hover {
     }
 
     /* map styling */
-
     .google-map {
         display: flex;
         flex-direction: column;
@@ -1293,7 +1246,6 @@ input[type=submit]:hover {
     }
 
     /* styling for opening hours */
-
     .opening-hours {
         font-size: 90%;
         padding-top: 30px;
@@ -1302,7 +1254,6 @@ input[type=submit]:hover {
     }
 
     /* Thank You page styling */
-
     .thank-you-nav {
         margin-top: 60px;
     }
@@ -1335,17 +1286,14 @@ input[type=submit]:hover {
 }
 
 /* for screen size over 1025px and under 1200px wide */
-    
 @media (max-width: 1200px) and (min-width: 1025px) {
     
 /* Benefits page styling */
-
     .benefits-image img {
         width: 40vw;
     }
 
 /* Contact Us page styling */
-
     .form {
         margin-left: 25px;
     }
@@ -1361,7 +1309,6 @@ input[type=submit]:hover {
     }
 
 /* Thank You page styling */
-
     .thank-you-nav {
         margin-top: 20px;
     }
@@ -1393,11 +1340,9 @@ input[type=submit]:hover {
 }
 
 /* for screen size over 1201px wide */
-
 @media (max-width: 1800px) and (min-width: 1201px) {
     
     /* Contact Us page styling */
-
     .form {
         margin-left: 60px;
     }
@@ -1406,7 +1351,6 @@ input[type=submit]:hover {
     }
 
     /* Thank You page styling */
-
     .thank-you-logo {
         font-size: 325%;
         position: relative;
