@@ -6,6 +6,8 @@
 
 Sloth Yoga is a site for kids yoga studio based in Dublin, Ireland. Based in Castleknock, Dublin we are never too far away. The idea about yoga studio for kids was born after our son was struggling to regulate his emotions, therefore getting upset and angry very often. With my yoga and an exercise knowledge, we started a fun and exiting journey of helping many more. We are passionate about yoga and benefits it gives to not only adults but children alike. The goal of website is to draw interest to Sloth Yoga studio, while highlighting benefits of becoming a yogi. Yoga is for everyone but promoting healthy habits and self care to kids at early age through yoga practise builds basis of healthier lifestyle.
 
+![Link to live site](https://violaberg.github.io/sloth-yoga-site/)
+
 ## **Planning**
 
 ### **Intended Users**
@@ -112,12 +114,12 @@ I have included details of testing in a separate file [TESTING.md](TESTING.md).
 
 The website was deployed to GitHub pages:
 
-1. From this project's [link for repository](https://github.com/violaberg/sloth-yoga-p1), go to the **Settings**.
+1. From this project's [link for repository](https://violaberg.github.io/sloth-yoga-site/), go to the **Settings**.
 2. From the left-hand menu, click on the **Pages**.
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will appear to confirm a successful deployment to GitHub pages and provide the live link.
 
-Live link to the website - [Sloth Yoga](https://violaberg.github.io/sloth-yoga-p1/)
+Live link to the website - [Sloth Yoga](https://violaberg.github.io/sloth-yoga-site/)
 
 ## **Credits**
 
