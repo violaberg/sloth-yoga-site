@@ -7,9 +7,14 @@
     border: none;
 }
 
-body, h1, h2, .benefits-list, textarea, #map-header, input[type=text],
+body, h1, h2,
+.benefits-list,
+textarea,
+#map-header,
+input[type=text],
 input[type=email],
-input[type=number], input[type=submit] {
+input[type=number],
+input[type=submit] {
     font-family: Montserrat Alternates, sans-serif;
 }
 
@@ -17,6 +22,21 @@ body {
     font-weight: 300;
     color: #3a3a3a;
     overflow-x: hidden;
+}
+
+h1, h2,
+.benefits-list,
+.copyright,
+input[type=submit] {
+    color: #252525;
+}
+
+#menu,
+#about-us-title,
+.benefits-header,
+#map-header,
+.thank-you-header {
+    color: #007791;
 }
 
 /* logo and headings*/
@@ -28,7 +48,6 @@ h2 {
     letter-spacing: 4px;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #252525
 }
 
 .flex-container {
@@ -64,7 +83,6 @@ header {
     text-decoration: none;
     font-size: 110%;
     letter-spacing: 2px;
-    color: #007791;
 }
 
 #menu li {
@@ -119,7 +137,6 @@ a:not(active) {
 }
 
 #about-us-title {
-    color: #007791;
     font-size: 225%;
 }
 
@@ -151,7 +168,6 @@ a:not(active) {
     position: absolute;
     bottom: 15px;
     right: 30px;
-    color: #252525;
 }
 
 /* styling benefits page */
@@ -162,7 +178,6 @@ a:not(active) {
 }
 
 .benefits-header {
-    color: #007791;
     margin-top: 30px;
 }
 
@@ -170,7 +185,6 @@ a:not(active) {
     list-style-type: none;
     text-align: left;
     margin: 30px 30px 30px 50px;
-    color: #252525
 }
 
 .benefits-list > li {
@@ -357,7 +371,6 @@ input[type=radio] {
 input[type=submit] {
     font-weight: bold;
     background-color: #48AAAD;
-    color: #252525;
     padding: 10px 20px;
     margin-top: 10px;
     border: none;
@@ -373,7 +386,6 @@ input[type=submit]:hover {
 #map-header {
     font-size: 200%;
     font-weight: bold;
-    color: #007791;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-bottom: 10px;
@@ -435,7 +447,6 @@ input[type=submit]:hover {
 }
 
 .thank-you-header {
-    color: #007791;
     margin-top: 30px;
     margin-right: 100px;
     margin-bottom: 30px;
