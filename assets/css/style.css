@@ -245,27 +245,21 @@ a:not(active) {
     align-items: center;
 }
 
-/* contact us page paragragh styling */
+/*Contact us page paragragh styling*/
 #contact-us-paragraph {
+    padding: 0 2%;
     text-align: center;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-bottom: 20px;
-    padding-top: 30px;
 }
 
-/* form styling */
+/*Form styling*/
 .form {
     flex: 1;
-    width: 200px;
-    height: 700px;
     font-weight: bold;
     border-radius: 10px;
     box-shadow: 2px 9px 20px rgba(0, 0, 0, 0.8);
-    background: url('../images/form-background-1.jpg') no-repeat center center;
+    background: url(../images/form-background-1.jpg) no-repeat center center;
     opacity: 0.8;
-    margin-left: 80px;
-    padding: 30px;
+    position: absolute;
 }
 
 textarea {
@@ -273,7 +267,6 @@ textarea {
     padding: 5px;
     border: 1px solid #3a3a3a;
     border-radius: 10px;
-    /* rounded corners to match submit button */
     box-sizing: border-box;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -287,14 +280,13 @@ input[type=number] {
     padding: 5px;
     border: 1px solid #3a3a3a;
     border-radius: 10px;
-    /* rounded corners to match submit button */
     box-sizing: border-box;
     margin-top: 5px;
     margin-bottom: 15px;
     resize: vertical;
 }
 
-/* submit button styling */
+/*Submit button styling*/
 input[type=radio] {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -310,38 +302,40 @@ input[type=submit] {
     cursor: pointer;
 }
 
+/*Submit button hover*/
 input[type=submit]:hover {
     background-color: #007791;
-    /* submit button hover */
 }
 
-/* google map positioning*/
-#map-header {
-    font-size: 200%;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding-bottom: 10px;
-    text-align: center;
-    margin-right: 80px;
-}
-
+/*Map styling*/
 .google-map {
-    flex: 1;
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+    margin: 0;
+    padding: 0;
 }
 
-.google-map iframe {
-    width: 800px;
-    height: 600px;
-    margin-right: -30px;
-    border-radius: 10px;
-    box-shadow: 2px 9px 20px rgba(0, 0, 0, 0.8);
+#map-header {
+    font-size: 110%;
+    text-align: center;
+    margin-right: 30px;
+    padding-top: 20px;
 }
 
 .google-map p {
+    font-size: 90%;
     padding-bottom: 20px;
-    margin-right: 30px;
+    margin: 0;
+}
+
+.google-map iframe {
+    width: 100%;
+    height: 400px;
+    margin-right: 0;
+    padding: 0;
 }
 
 /* opening hours styling */
