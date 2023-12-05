@@ -21,7 +21,20 @@ main {
     max-width: 100vw;
 }
 
-/* logo and headings*/
+h2,
+.logo,
+.benefits-list,
+input[type=submit],
+.copyright {
+    color: #252525;
+}
+
+h1,
+#menu {
+    color: #007791;
+}
+
+/* Logo and headings*/
 h1,
 h2 {
     text-transform: uppercase;
@@ -30,7 +43,6 @@ h2 {
     letter-spacing: 4px;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #252525
 }
 
 .logo {
@@ -48,12 +60,11 @@ header {
     position: relative;
 }
 
-/*navigation*/
+/*Navigation*/
 
 #menu {
     text-decoration: none;
     font-size: 100%;
-    color: #007791;
 }
 
 #menu li {
@@ -99,46 +110,11 @@ a:not(active) {
 }
 
 #about-us-title {
-    color: #007791;
     margin: 0;
 }
 
 .about-us p {
     padding-bottom: 20%;
-}
-
-/* footer styling */
-.footer {
-    background: radial-gradient(circle, rgba(34, 182, 195, 1) 0%, rgba(253, 242, 45, 1) 100%);
-    position: fixed;
-    bottom: 0;
-    padding: 10px 0;
-    width: 100vw;
-}
-
-ul {
-    padding: 2%;
-}
-
-.footer-icons {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.footer-icons li {
-    font-size: 150%;
-    margin: 0 5px;
-}
-
-/* copyright styling and positioning */
-.copyright {
-    position: absolute;
-    bottom: 2%;
-    color: #252525;
-    margin-left: 35%;
-    padding-top: 1%;
 }
 
 /* styling benefits page */
@@ -149,7 +125,6 @@ ul {
 }
 
 .benefits-header {
-    color: #007791;
     margin-top: 30px;
 }
 
@@ -157,7 +132,6 @@ ul {
     list-style-type: none;
     text-align: left;
     margin: 30px 30px 30px 50px;
-    color: #252525
 }
 
 .benefits-list>li {
@@ -346,7 +320,6 @@ input[type=radio] {
 input[type=submit] {
     font-weight: bold;
     background-color: #48AAAD;
-    color: #252525;
     padding: 10px 20px;
     margin-top: 10px;
     border: none;
@@ -363,7 +336,6 @@ input[type=submit]:hover {
 #map-header {
     font-size: 200%;
     font-weight: bold;
-    color: #007791;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-bottom: 10px;
@@ -424,7 +396,6 @@ input[type=submit]:hover {
 }
 
 .thank-you-header {
-    color: #007791;
     margin-top: 30px;
     margin-right: 100px;
     margin-bottom: 30px;
@@ -452,4 +423,37 @@ input[type=submit]:hover {
     align-items: center;
     margin-right: 80px;
     height: 100vh;
+}
+
+/* footer styling */
+.footer {
+    background: radial-gradient(circle, rgba(34, 182, 195, 1) 0%, rgba(253, 242, 45, 1) 100%);
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0;
+    width: 100vw;
+}
+
+ul {
+    padding: 2%;
+}
+
+.footer-icons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-icons li {
+    font-size: 150%;
+    margin: 0 5px;
+}
+
+/* copyright styling and positioning */
+.copyright {
+    position: absolute;
+    bottom: 2%;
+    margin-left: 35%;
+    padding-top: 1%;
 }
