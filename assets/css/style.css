@@ -343,7 +343,7 @@ input[type=submit]:hover {
     width: 100%;
 }
 
-/* opening hours styling */
+/*Opening hours styling*/
 .opening-hours {
     margin-bottom: 10%;
     padding-bottom: 4%;
@@ -372,7 +372,7 @@ input[type=submit]:hover {
     width: 100%;
 }
 
-/* thank you page styling */
+/*Thank you page styling*/
 .thank-you-message {
     font-size: 120%;
     font-style: italic;
@@ -392,7 +392,7 @@ input[type=submit]:hover {
     padding-top: 25%;
 }
 
-/* footer styling */
+/*Footer styling*/
 .footer {
     background: radial-gradient(circle, rgba(34, 182, 195, 1) 0%, rgba(253, 242, 45, 1) 100%);
     bottom: 0;
@@ -418,10 +418,33 @@ ul {
     padding-bottom: 2%;
 }
 
-/* copyright styling and positioning */
+/*Copyright styling and positioning*/
 .copyright {
     bottom: 2%;
     margin-left: 35%;
     padding-top: 1%;
     position: absolute;
+}
+
+/*For screen size under 380px wide*/
+@media (max-width: 380px){
+    .logo-img {
+        margin-left: -2%;
+    }
+    #menu li a {
+        color: #007791;
+        margin-left: 1%;
+        padding: 0 1%;
+    }
+    #gallery-photos {
+        margin-bottom: 20%;
+        position: relative;
+    }
+    .copyright {
+        bottom: 1%;
+        font-size: 95%;
+    }
+    .thank-you-container {
+        padding: 5% 2%;
+    }
 }
