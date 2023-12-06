@@ -373,41 +373,23 @@ input[type=submit]:hover {
 }
 
 /* thank you page styling */
-.thank-you-logo {
-    font-size: 325%;
-    position: relative;
-    top: 50px;
-    margin-right: 200px;
-}
-
-.thank-you-header {
-    margin-top: 30px;
-    margin-right: 100px;
-    margin-bottom: 30px;
-}
-
 .thank-you-message {
     text-align: center;
     font-size: 120%;
     font-style: italic;
-    margin-right: 100px;
-    margin-bottom: 60px;
 }
 
 .thank-you-img {
     display: block;
     margin: 0 auto;
-    padding-bottom: 30px;
-    margin-right: 260px;
+    width: 95vw;
 }
 
 .thank-you-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-right: 80px;
-    height: 100vh;
+    padding-top: 25%;
 }
 
 /* footer styling */
