@@ -22,7 +22,6 @@ main {
 }
 
 h2,
-.logo,
 .benefits-list,
 input[type=submit],
 .copyright {
@@ -46,6 +45,7 @@ h2 {
 }
 
 .logo {
+    color: #252525;
     font-size: 300%;
     position: relative;
     margin-top: -35%;
@@ -244,9 +244,9 @@ a:not(active) {
 /* contact us page styling */
 .contact-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 /*Contact us page paragragh styling*/
@@ -255,21 +255,18 @@ a:not(active) {
     text-align: center;
 }
 
-.contact-container {
-    flex-direction: column;
-}
-
 /*Form styling*/
 .form {
-    display: flex;
+    color: black;
     flex: 1;
     font-weight: bold;
     border-radius: 10px;
     box-shadow: 2px 9px 20px rgba(0, 0, 0, 0.8);
     background: url(../images/form-background-1.jpg) no-repeat center center;
+    margin: 4%;
     opacity: 0.8;
     padding: 2%;
-    width: 85vw;
+    width: 90vw;
 }
 
 textarea {
@@ -286,7 +283,7 @@ textarea {
 input[type=text],
 input[type=email],
 input[type=number] {
-    width: 50%;
+    width: 66%;
     padding: 5px;
     border: 1px solid #3a3a3a;
     border-radius: 10px;
@@ -300,12 +297,14 @@ input[type=number] {
 input[type=radio] {
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 33%;
 }
 
 input[type=submit] {
     font-weight: bold;
     background-color: #48AAAD;
     padding: 10px 20px;
+    margin-left: 37%;
     margin-top: 10px;
     border: none;
     border-radius: 10px;
@@ -318,27 +317,23 @@ input[type=submit]:hover {
 }
 
 /*Map styling*/
+#map-header {
+    margin-bottom: 0;
+}
 .google-map {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 90vw;
+    max-width: 95vw;
     margin: 0;
     padding: 0;
 }
 
-#map-header {
-    font-size: 110%;
-    text-align: center;
-    margin-right: 30px;
-    padding-top: 20px;
-}
-
 .google-map p {
-    font-size: 90%;
-    padding-bottom: 20px;
+    padding-bottom: 4%;
     margin: 0;
+    text-align: center;
 }
 
 .google-map iframe {
@@ -350,24 +345,26 @@ input[type=submit]:hover {
 
 /* opening hours styling */
 .opening-hours {
+    margin-bottom: 10%;
+    padding-bottom: 4%;
+    position: relative;
     text-align: center;
-    padding: 20px;
-    bottom: 4%;
-    position: fixed;
 }
 
 .opening-hours h2 {
     font-size: 120%;
-    margin-bottom: 10px;
+    margin-bottom: 0;
+    padding-top: 3%;
 }
 
 .opening-hours ul {
     list-style: none;
-    padding: 0;
+    padding: 2% 0;
+    position: relative;
 }
 
 .opening-hours li {
-    margin-bottom: 5px;
+    margin-bottom: 2%;
 }
 
 .opening-hours li strong {
