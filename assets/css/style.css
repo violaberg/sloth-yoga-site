@@ -181,6 +181,10 @@ a:not(active) {
     text-align: center;
 }
 
+#gallery-photos {
+    padding: 4%;
+}
+
 .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -251,15 +255,21 @@ a:not(active) {
     text-align: center;
 }
 
+.contact-container {
+    flex-direction: column;
+}
+
 /*Form styling*/
 .form {
+    display: flex;
     flex: 1;
     font-weight: bold;
     border-radius: 10px;
     box-shadow: 2px 9px 20px rgba(0, 0, 0, 0.8);
     background: url(../images/form-background-1.jpg) no-repeat center center;
     opacity: 0.8;
-    position: absolute;
+    padding: 2%;
+    width: 85vw;
 }
 
 textarea {
@@ -341,8 +351,9 @@ input[type=submit]:hover {
 /* opening hours styling */
 .opening-hours {
     text-align: center;
-    margin: 0 0 0 20px;
     padding: 20px;
+    bottom: 4%;
+    position: fixed;
 }
 
 .opening-hours h2 {
