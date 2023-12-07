@@ -451,11 +451,17 @@ ul {
         padding: 4% 2%;
     }
     .gallery-container {
-        position: absolute;
         bottom: 6%;
+        position: absolute;
+    }
+    .image-grid {
+        margin: 6%;
     }
     #contact-us-paragraph {
         padding: 4% 2%;
+    }
+    .copyright {
+        font-size: small;
     }
 }
 
