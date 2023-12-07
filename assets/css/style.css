@@ -428,31 +428,41 @@ ul {
 
 /*For screen size under 295px and over 280px*/
 @media (max-width: 295px) and (min-width: 280px) {
+    .logo {
+        margin-top: -50%;
+    }
+    .logo-img {
+        margin-left: -10%;
+    }
     ul#menu {
         padding: 0;
     }
     #menu {
         font-size: 88%;
     }
-    .benefits-image img {
-        margin-bottom: 10%;
-    }
-}
-
-/*For screen size under 330px wide*/
-@media (max-width: 330px){
-    .logo {
-        margin-top: -40%;
-    }
-    .logo-img {
-        margin-left: -6%;
-    }
     #menu li a {
         margin-left: 1%;
         padding: 0 1%;
     }
+    .benefits-image img {
+        margin-bottom: 10%;
+    }
     #gallery-p {
-        padding: 0 2%;
+        padding: 4% 2%;
+    }
+    .gallery-container {
+        position: absolute;
+        bottom: 6%;
+    }
+    #contact-us-paragraph {
+        padding: 4% 2%;
+    }
+}
+
+/*For screen size under 330px wide and over 295px*/
+@media (max-width: 330px) and (min-width: 296px) {
+    .logo {
+        margin-top: -40%;
     }
     #gallery-photos {
         margin-bottom: 20%;
