@@ -426,8 +426,8 @@ ul {
     position: absolute;
 }
 
-/*For screen size under 295px and over 280px*/
-@media (max-width: 295px) and (min-width: 280px) {
+/*For screen size over 280px wide*/
+@media (min-width: 280px) {
     .logo {
         margin-top: -50%;
     }
@@ -465,30 +465,16 @@ ul {
     }
 }
 
-/*For screen size under 330px wide and over 295px*/
-@media (max-width: 330px) and (min-width: 296px) {
-    .logo {
-        margin-top: -40%;
+/*For screen size over 331px wide*/
+@media (min-width: 300px){
+    .logo-img {
+        margin-left: -6%;
+        margin-top: 10%;
     }
-    #gallery-photos {
-        margin-bottom: 20%;
-        position: relative;
-    }
-    .copyright {
-        bottom: 1%;
-        font-size: 95%;
+    #menu {
+        margin-left: 3%;
     }
     .thank-you-container {
-        padding: 5% 2%;
-    }
-}
-
-/*For screen size under 380px and over 331px wide*/
-@media (max-width: 380px) and (min-width: 331px){
-    .logo-img {
-        margin-left: -2%;
-    }
-    #menu li a {
-        color: #007791;
+        padding-top: 10%;
     }
 }
