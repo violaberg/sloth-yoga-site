@@ -465,7 +465,7 @@ ul {
     }
 }
 
-/*For screen size over 331px wide*/
+/*For screen size over 300px wide*/
 @media (min-width: 300px){
     .logo-img {
         margin-left: -6%;
@@ -476,5 +476,45 @@ ul {
     }
     .thank-you-container {
         padding-top: 10%;
+    }
+}
+
+/*For screen size over 320px wide*/
+@media (min-width: 320px) {
+    #menu {
+        margin-left: 6%;
+    }
+    .thank-you-container {
+        padding: 10% 2% 0;
+    }
+}
+
+/*For screen size over 340px wide*/
+@media (min-width: 340px) {
+    .logo {
+        margin-top: -45%;
+    }
+    #menu {
+        margin-left: 8%;
+    }
+}
+
+/*For screen size over 370px wide*/
+@media (min-width: 370px) {
+    .logo {
+        margin-top: -40%;
+    }
+    .logo-img {
+        margin-left: 1%;
+    }
+    #menu {
+        margin-left: 2%;
+        font-size: 100%;
+    }
+    #menu li a {
+        padding: 0 2%;
+    }
+    .thank-you-container {
+        padding: 15% 2% 0;
     }
 }
