@@ -175,14 +175,14 @@ a:not(active) {
 
 /*Gallery page*/
 #gallery-p {
-    font-size: 100%;
     font-style: italic;
     font-weight: 300;
     text-align: center;
 }
 
-#gallery-photos {
-    padding: 4%;
+#disclaimer {
+    font-style: normal;
+    text-align: center;
 }
 
 .image-grid {
@@ -448,14 +448,14 @@ ul {
         margin-bottom: 10%;
     }
     #gallery-p {
-        padding: 4% 2%;
+        padding: 4% 2% 0;
     }
     .gallery-container {
-        bottom: 6%;
-        position: absolute;
+        position: relative;
+        padding: 4% 0 20%;
     }
     .image-grid {
-        margin: 6%;
+        margin: 4% 0 6%;
     }
     #contact-us-paragraph {
         padding: 4% 2%;
