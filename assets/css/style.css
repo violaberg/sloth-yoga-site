@@ -534,3 +534,29 @@ ul {
         padding: 0 2%;
     }
 }
+
+/*For screen size over 410px wide*/
+@media (min-width: 410px) {
+    #menu {
+        margin-left: 6%;
+    }
+    #gallery-p {
+        padding: 2% 2% 0;
+    }
+    .copyright {
+        margin-left: 38%;
+    }
+}
+
+/*For screen size over 430px wide*/
+@media (min-width: 430px) {
+    #menu {
+        margin-left: 8%;
+    }
+    .logo-img {
+        margin-top: 4%;
+    }
+    .logo {
+        margin-top: -35%;
+    }
+}
