@@ -675,3 +675,63 @@ ul {
         margin-left: 6%;
     }
 }
+
+/*For screen size over 650px wide*/
+@media (min-width: 650px) {
+    .logo {
+        margin-left: 20%;
+        margin-top: -18%;
+    }
+    .logo-img {
+        margin-left: 6%;
+    }
+    #menu {
+        margin-left: 8%;
+    }
+    ul#menu {
+        padding-top: 6%;
+    }
+    #contact-us-paragraph {
+        padding: 0 2%;
+    }
+    input[type=radio] {
+        margin-left: 39%;
+    }
+    input[type=submit] {
+        margin-left: 42%;
+    }
+    .opening-hours ul {
+        padding: 0;
+    }
+    ul {
+        padding: 1%;
+    }
+    .thank-you-container {
+        padding: 2% 2% 0;
+    }
+    .copyright {
+        margin-left: 41%;
+    }
+}
+
+/*For screen size over 730px wide*/
+@media (min-width: 730px) {
+    .logo {
+        margin-top: -16%;
+    }
+    .logo-img {
+        margin-left: 12%;
+    }
+    #menu li a {
+        padding: 0 6%;
+    }
+    .about-us p {
+        padding-bottom: 10%;
+    }
+    .benefits-container {
+        padding: 2% 2%;
+    }
+    .gallery-container {
+        padding: 0 0 12%;
+    }
+}
