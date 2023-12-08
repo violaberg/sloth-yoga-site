@@ -280,7 +280,7 @@ textarea {
     box-sizing: border-box;
     margin-bottom: 10px;
     margin-top: 10px;
-    padding: 5px;
+    padding: 2%;
     resize: vertical;
     width: 100%;
 }
@@ -800,6 +800,13 @@ ul {
     .image-grid {
         margin: 0 0 4%;
     }
+    .form {
+        max-height: 96vh;
+    }
+    textarea {
+        margin-bottom: 0;
+        margin-top: 1%;
+    }
     .opening-hours h2 {
         padding-top: 2%;
     }
@@ -843,6 +850,9 @@ ul {
     }
     .form {
         margin: 2%;
+    }
+    .legend {
+        margin-bottom: 0;
     }
     .opening-hours {
         margin-bottom: 3%;
@@ -910,7 +920,55 @@ ul {
     .logo {
         margin-top: -11%;
     }
+    #menu {
+        margin-left: 5%;
+    }
+    #menu li a {
+        padding: 0 8%;
+    }
     .benefits-image img {
         margin-left: 22%;
+    }
+}
+
+/*For screen size over 1200px wide*/
+@media (min-width: 1200px) {
+    .logo {
+        margin-top: -10%;
+    }
+    .benefits-image img {
+        margin-left: 24%;
+    }
+    .thank-you-container {
+        padding-top: 2%;
+    }
+    .copyright {
+        margin-left: 45%;
+    }
+}
+
+/*For screen size over 1300px wide*/
+@media (min-width: 1300px) {
+    .logo {
+        margin-left: 8%;
+        margin-top: -9%;
+    }
+    .logo-img {
+        margin-left: 26%;
+    }
+    #menu {
+        margin-left: 8%;
+    }
+    #hero-image img {
+        margin-left: 3%;
+    }
+    .about-us p {
+        padding-bottom: 4%;
+    }
+    .benefits-image img {
+        margin-left: 26%;
+    }
+    .opening-hours {
+        margin-bottom: 2%;
     }
 }
