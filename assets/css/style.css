@@ -734,4 +734,183 @@ ul {
     .gallery-container {
         padding: 0 0 12%;
     }
+    .thank-you-container {
+        padding: 2% 0;
+        width: 70vw;
+        margin: 0 auto;
+    }
+    .thank-you-img {
+        width: 70vw;
+    }
+}
+
+/*For screen size over 800px wide*/
+@media (min-width: 800px) {
+    .logo {
+        margin-left: 14%;
+        margin-top: -15%;
+    }
+    .logo-img {
+        margin-left: 16%;
+    }
+    .benefits-image img {
+        margin-left: 10%;
+    }
+    .form {
+        width: 70vw;
+    }
+    .opening-hours {
+        margin-bottom: 6%;
+    }
+    .google-map iframe {
+        width: 70vw;
+    }
+}
+
+/*For screen size over 820px wide*/
+@media (min-width: 820px) {
+    .logo {
+        margin-left: 10%;
+    }
+    .benefits-image img {
+        margin-bottom: 6%;
+    }
+    .copyright {
+        margin-left: 43%;
+    }
+}
+
+/*For screen size over 860px wide*/
+@media (min-width: 860px) {
+    .logo {
+        margin-top: -14%;
+    }
+    #menu {
+        margin-left: 10%;
+    }
+    .about-us p {
+        padding-bottom: 8%;
+    }
+    .benefits-image img {
+        margin-left: 14%;
+    }
+    .gallery-container {
+        padding: 0 0 10%;
+    }
+    .image-grid {
+        margin: 0 0 4%;
+    }
+    .opening-hours h2 {
+        padding-top: 2%;
+    }
+    .thank-you-container {
+        padding: 0;
+    }
+}
+
+/*For screen size over 950px wide*/
+@media (min-width: 950px) {
+    .logo {
+        margin-left: 12%;
+        margin-top: -13%;
+    }
+    .logo-img {
+        margin-left: 20%;
+    }
+    ul#menu {
+        padding-bottom: 0;
+    }
+    #menu {
+        margin-left: 13%;
+    }
+    .about-us p {
+        padding-bottom: 6%;
+    }
+    .benefits-header {
+        padding-top: 2%;
+    }
+    .benefits-image img {
+        margin-left: 17%;
+    }
+    #gallery-p {
+        padding: 2% 2% 0;
+    }
+    .gallery-container {
+        padding: 0 0 8%;
+    }
+    #contact-us-paragraph {
+        padding: 2% 2% 0;
+    }
+    .form {
+        margin: 2%;
+    }
+    .opening-hours {
+        margin-bottom: 3%;
+    }
+    .google-map p {
+        padding-bottom: 2%;
+    }
+    h1 {
+        margin-top: 0;
+    }
+    .copyright {
+        margin-left: 44%;
+    }
+    .footer-icons li {
+        padding-bottom: 0;
+    }
+}
+
+/*For screen size over 1000px wide*/
+@media (min-width: 1000px) {
+    .logo {
+        margin-top: -12%;
+    }
+    ul#menu {
+        padding-top: 2%;
+    }
+    #benefits {
+        padding: 2% 2% 0;
+    }
+    .benefits-container {
+        padding: 1% 2% 2%;
+    }
+    .benefits-image img {
+        margin-bottom: 4%;
+    }
+    .form {
+        width: 50vw;
+    }
+    .google-map iframe {
+        width: 50vw;
+    }
+    .thank-you-container {
+        padding-top: 6%;
+    }
+}
+
+/*For screen size over 1050px wide*/
+@media (min-width: 1050px) {
+    .benefits-image img {
+        margin-left: 20%;
+    }
+    .gallery-container {
+        padding: 0 0 7%;
+    }
+    .image-grid {
+        margin: 0 0 3%;
+    }
+    .thank-you-container {
+        padding-top: 4%;
+    }
+}
+
+/*For screen size over 1100px wide*/
+@media (min-width: 1100px) {
+    .logo {
+        margin-top: -11%;
+    }
+    .benefits-image img {
+        margin-left: 22%;
+    }
 }
