@@ -639,7 +639,7 @@ ul {
 }
 
 /*For screen size over 550px wide*/
-@media (min-width: 50px) {
+@media (min-width: 550px) {
     .logo-img {
         margin-left: 0;
         margin-top: 4%;
@@ -647,6 +647,9 @@ ul {
     .logo {
         margin-left: 16%;
         margin-top: -22%;
+    }
+    ul#menu {
+        padding-top: 4%;
     }
     #contact-us-paragraph {
         padding: 2% 0;
@@ -656,5 +659,19 @@ ul {
     }
     .thank-you-container {
         padding: 6% 2% 0;
+    }
+}
+
+/*For screen size over 590px wide*/
+@media (min-width: 590px) {
+    .logo {
+        margin-left: 18%;
+        margin-top: -20%;
+    }
+    .logo-img {
+        margin-left: 4%;
+    }
+    #menu {
+        margin-left: 6%;
     }
 }
