@@ -66,6 +66,10 @@ header {
     text-decoration: none;
 }
 
+ul#menu {
+    padding-bottom: 3%;
+}
+
 #menu li {
     display: inline;
     list-style-type: none;
@@ -182,6 +186,7 @@ a:not(active) {
 
 #disclaimer {
     font-style: normal;
+    padding: 0 2%;
     text-align: center;
 }
 
@@ -435,7 +440,8 @@ ul {
         margin-left: -10%;
     }
     ul#menu {
-        padding: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
     #menu {
         font-size: 88%;
@@ -516,5 +522,15 @@ ul {
     }
     .thank-you-container {
         padding: 15% 2% 0;
+    }
+}
+
+/*For screen size over 390px wide*/
+@media (min-width: 390px) {
+    #menu {
+        margin-left: 4%;
+    }
+    .benefits-header {
+        padding: 0 2%;
     }
 }
