@@ -921,9 +921,10 @@ ul {
         margin-top: -11%;
     }
     #menu {
-        margin-left: 5%;
+        margin-left: 4%;
     }
     #menu li a {
+        font-size: 18px;
         padding: 0 8%;
     }
     .benefits-image img {
@@ -970,5 +971,104 @@ ul {
     }
     .opening-hours {
         margin-bottom: 2%;
+    }
+}
+
+@media (min-width: 2200px) {
+    .logo {
+        font-size: 400%;
+        margin-top: -8%;
+    }
+    .logo-img {
+        margin-left: 30%;
+        margin-top: 3%;
+        width: 250px;
+    }
+    #menu li a {
+        font-size: 26px;
+    }
+    #hero-image img {
+        margin-left: 15%;
+        width: 70%;
+    }
+    #quotation {
+        font-size: 25px;
+        margin-left: 6%;
+    }
+    #about-us-title {
+        font-size: 3em;
+    }
+    .about-us p {
+        font-size: 1.5em;
+    }
+    .benefits-header {
+        font-size: 3em;
+    }
+    #benefits {
+        font-size: 1.5em
+    }
+    .benefits-list>li {
+        font-size: 1.5em
+    }
+    .benefits-image img {
+        margin-left: 36%;
+    }
+    #gallery-p {
+        font-size: 1.5em;
+    }
+    #disclaimer {
+        font-size: 1.5em;
+    }
+    #contact-us-paragraph {
+        font-size: 1.5em;
+    }
+    .form {
+        max-height: 70vh;
+        padding: 1%;
+    }
+    label {
+        font-size: 1.5em;
+    }
+    input[type=text], input[type=email], input[type=number] {
+        font-size: 1.5em;
+        width: 33%;
+    }
+    textarea {
+        font-size: 2em;
+        margin-left: 15%;
+        max-height: 180px;
+        width: 70%;
+    }
+    .legend {
+        margin-left: -10%;
+    }
+    input[type=submit] {
+        font-size: 1.5em;
+    }
+    #map-header {
+        font-size: 3em;
+    }
+    .google-map p {
+        font-size: 1.5em;
+    }
+    .google-map iframe {
+        height: 800px;
+        width: 52vw;
+    }
+    .opening-hours {
+        font-size: 1.5em;
+    }
+    .thank-you-header {
+        font-size: 3em;
+    }
+    .thank-you-message {
+        font-size: 2em;
+    }
+    .footer-icons {
+        font-size: 2em;
+    }
+    .copyright {
+        margin-left: 45%;
+        font-size: 1.5em;
     }
 }
