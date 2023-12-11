@@ -141,6 +141,7 @@ a:not(active) {
 
 /*Scales up benefit list with mouse over*/
 .benefits-list>li:hover {
+    padding: 0 2%;
     transform: scale(1.05);
 }
 
@@ -972,8 +973,42 @@ ul {
     .opening-hours {
         margin-bottom: 2%;
     }
+    .thank-you-img {
+        padding-top: 2%;
+    }
 }
 
+/*For screen size over 1350px wide*/
+@media (min-width: 1350px) {
+    #hero-image img {
+        margin-left: 4%;
+    }
+}
+
+/*For screen size over 1400px wide*/
+@media (min-width: 1400px) {
+    #hero-image img {
+        margin-left: 5%;
+    }
+    .benefits-image img {
+        margin-left: 30%;
+    }
+}
+
+/*For screen size over 1450px wide*/
+@media (min-width: 1450px) {
+    .logo-img {
+        margin-top: 2%;
+    }
+    #hero-image img {
+        margin-left: 7%;
+    }
+    .benefits-image img {
+        margin-left: 28%;
+    }
+}
+
+/*For screen size over 2200px wide*/
 @media (min-width: 2200px) {
     .logo {
         font-size: 400%;
