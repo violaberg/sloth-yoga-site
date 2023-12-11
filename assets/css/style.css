@@ -998,13 +998,60 @@ ul {
 /*For screen size over 1450px wide*/
 @media (min-width: 1450px) {
     .logo-img {
-        margin-top: 2%;
+        margin-top: 3%;
     }
     #hero-image img {
         margin-left: 7%;
     }
     .benefits-image img {
         margin-left: 28%;
+    }
+    .thank-you-container {
+        padding-top: 1%;
+    }
+}
+
+/*For screen size over 1500px wide*/
+@media (min-width: 1500px) {
+    .logo {
+        margin-top: -8%;
+    }
+    .logo-img {
+        margin-left: 28%;
+    }
+    #hero-image img {
+        margin-left: 9%;
+    }
+    .thank-you-img {
+        margin-bottom: 10%;
+        position: relative;
+    }
+    .copyright {
+        margin-left: 46%;
+    }
+}
+
+/*For screen size over 1600px wide*/
+@media (min-width: 1600px) {
+    #hero-image img {
+        margin-left: 11%;
+    }
+    .benefits-image img {
+        margin-left: 31%;
+    }
+}
+
+/*For screen size over 1700px wide*/
+@media (min-width: 1700px) {
+    .logo {
+        margin-left: 5%;
+        margin-top: -7%;
+    }
+    .logo-img {
+        margin-left: 30%;
+    }
+    .thank-you-container {
+        padding-top: 2%;
     }
 }
 
