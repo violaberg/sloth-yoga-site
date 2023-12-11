@@ -48,37 +48,47 @@ I was delighted to have just 2 identical errors in validator that were very quic
 
 ### **Lighthouse**
 
-I was delighted with results. Performace was slightly lower on pages with images but my network sometimes can be very slow too so I wasn't surprised. I took some screenshots as results were close all the time. Here are screenshots from each page:
+I was delighted with results. Performace was slightly lower on pages with images but my network sometimes can be very slow too so I wasn't surprised. I took some screenshots as results were close all the time. Here are screenshots from each page for desktop and mobile screens:
 
 * Home page:
 
-![Home Page](assets/screenshots/home-page-lighthouse.jpg)
+![Home Page Desktop](assets/screenshots/lighthouse-desktop-home.jpg)
+
+![Home Page Mobile](assets/screenshots/lighthouse-mobile-home.jpg)
 
 * Benefits Page:
 
-![Benefits Page](assets/screenshots/benefits-page-lighthouse.jpg)
+![Benefits Page Desktop](assets/screenshots/lighthouse-desktop-benefits.jpg)
+
+![Benefits Page Mobile](assets/screenshots/lighthouse-mobile-benefits.jpg)
 
 * Gallery Page:
 
-![Gallery Page](assets/screenshots/gallery-page-lighthouse.jpg)
+![Gallery Page Desktop](assets/screenshots/lighthouse-desktop-gallery.jpg)
+
+![Gallery Page Mobile](assets/screenshots/lighthouse-mobile-gallery.jpg.png)
 
 * Contact Us Page:
 
-![Contact Us Page](assets/screenshots/contact-us-page-lighthouse.jpg)
+![Contact Us Page Desktop](assets/screenshots/lighthouse-desktop-contact-us.jpg)
+
+![Contact Us Page Mobile](assets/screenshots/lighthouse-mobile-contact-us.jpg)
 
 * Thank You Page:
 
-![Thank You Page](assets/screenshots/thank-you-page-lighthouse.jpg)
+![Thank You Page Desktop](assets/screenshots/lighthouse-desktop-thank-you.jpg)
+
+![Thank You Page Mobile](assets/screenshots/lighthouse-mobile-thank-you.jpg)
 
 ### **Am I Responsive**
 
 I used [Am I Responsive](https://amiresponsive.co.uk/) website as well. Here is the outcome:
 
-![Am I Responsive screenshot](assets/screenshots/am-i-responsive.jpg)
+![Am I Responsive screenshot](assets/screenshots/am-i-responsive-new.jpg)
 
 ### **DevTools**
 
-I used DevTools and a lot of screenhots that are all available in [media-screen-img](assets/media-screen-img/) folder. I will add few below as an example:
+I used DevTools and a lot of screenhots were taken, all available in [media-screen-img](assets/media-screen-img/) folder. I will add few below as an example:
 
 * Home Page for media max-width: 480px:
 

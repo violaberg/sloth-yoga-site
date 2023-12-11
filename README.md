@@ -6,7 +6,7 @@
 
 Sloth Yoga is a site for kids yoga studio based in Dublin, Ireland. Based in Castleknock, Dublin we are never too far away. The idea about yoga studio for kids was born after our son was struggling to regulate his emotions, therefore getting upset and angry very often. With my yoga and an exercise knowledge, we started a fun and exiting journey of helping many more. We are passionate about yoga and benefits it gives to not only adults but children alike. The goal of website is to draw interest to Sloth Yoga studio, while highlighting benefits of becoming a yogi. Yoga is for everyone but promoting healthy habits and self care to kids at early age through yoga practise builds basis of healthier lifestyle.
 
-![Link to live site](https://violaberg.github.io/sloth-yoga-site/index.html)
+[Link to live site](https://violaberg.github.io/sloth-yoga-site/index.html)
 
 ## **Planning**
 

@@ -942,6 +942,10 @@ ul {
     .benefits-image img {
         margin-left: 24%;
     }
+    .image-grid {
+        width: 66vw;
+        margin-left: 16%;
+    }
     .thank-you-container {
         padding-top: 2%;
     }
@@ -996,10 +1000,6 @@ ul {
     }
     .benefits-image img {
         margin-left: 30%;
-    }
-    .image-grid {
-        width: 66vw;
-        margin-left: 16%;
     }
 }
 
