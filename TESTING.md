@@ -50,31 +50,31 @@ I was delighted to have just 2 identical errors in validator that were very quic
 
 I was delighted with results. Performace was slightly lower on pages with images but my network sometimes can be very slow too so I wasn't surprised. I took some screenshots as results were close all the time. Here are screenshots from each page for desktop and mobile screens:
 
-* Home page:
+* Home page
 
 ![Home Page Desktop](assets/screenshots/lighthouse-desktop-home.jpg)
 
 ![Home Page Mobile](assets/screenshots/lighthouse-mobile-home.jpg)
 
-* Benefits Page:
+* Benefits Page
 
 ![Benefits Page Desktop](assets/screenshots/lighthouse-desktop-benefits.jpg)
 
 ![Benefits Page Mobile](assets/screenshots/lighthouse-mobile-benefits.jpg)
 
-* Gallery Page:
+* Gallery Page
 
 ![Gallery Page Desktop](assets/screenshots/lighthouse-desktop-gallery.jpg)
 
 ![Gallery Page Mobile](assets/screenshots/lighthouse-mobile-gallery.jpg.png)
 
-* Contact Us Page:
+* Contact Us Page
 
 ![Contact Us Page Desktop](assets/screenshots/lighthouse-desktop-contact-us.jpg)
 
 ![Contact Us Page Mobile](assets/screenshots/lighthouse-mobile-contact-us.jpg)
 
-* Thank You Page:
+* Thank You Page
 
 ![Thank You Page Desktop](assets/screenshots/lighthouse-desktop-thank-you.jpg)
 
@@ -88,30 +88,67 @@ I used [Am I Responsive](https://amiresponsive.co.uk/) website as well. Here is 
 
 ### **DevTools**
 
-I used DevTools and a lot of screenhots were taken, all available in [media-screen-img](assets/media-screen-img/) folder. I will add few below as an example:
+DevTools used for screenhots taken, all available in [media-screen-img](assets/media-screen-img/) folder. A few add below as an example:
 
-* Home Page for media max-width: 480px:
+#### **Mobile screens**
+* Home Page
 
-![Home Page for media max-width: 480px](assets/media-screen-img/home-page-480px.jpg)
+![Home Page](assets/media-screen-img/iPhone-8-Plus-7-Plus-6S-Plus-414x736-home.png)
 
-* Benefits Page for media max-width: 767px:
+* Benefits Page
 
-![Benefits Page for media max-width: 767px](assets/media-screen-img/benefits-page-1-767px.jpg)
-
-![Benefits Page for media max-width: 767px](assets/media-screen-img/benefits-page-2-767px.jpg)
+![Benefits Page](assets/media-screen-img/iPhone-8-Plus-7-Plus-6S-Plus-414x736-benefits.png)
   
-* Gallery Page for media max-width: 1024px:
+* Gallery Page
 
-![Gallery Page for media max-width: 1024px](assets/media-screen-img/gallery-page-1-1024px.jpg)
-
-![Gallery Page for media max-width: 1024px](assets/media-screen-img/gallery-page-2-1024px.jpg)
+![Gallery Page](assets/media-screen-img/iPhone-8-Plus-7-Plus-6S-Plus-414x736-gallery.png)
   
-* Contact Us Page for media max-width: 1800px:
+* Contact Us Page
 
-![Contact Us Page for media max-width: 1800px](assets/media-screen-img/contact-us-page-1-1800px.jpg)
+![Contact Us Page](assets/media-screen-img/iPhone-8-Plus-7-Plus-6S-Plus-414x736-contact-us.png)
+  
+* Thank You Page
+  
+![Thank You Page](assets/media-screen-img/iPhone-8-Plus-7-Plus-6S-Plus-414x736-thank-you.png)
 
-![Contact Us Page for media max-width: 1800px](assets/media-screen-img/contact-us-page-2-1800px.jpg)
+#### **Tablet screens**
+* Home Page
+
+![Home Page](assets/media-screen-img/iPad-768x1024-home.png)
+
+* Benefits Page
+
+![Benefits Page](assets/media-screen-img/iPad-768x1024-benefits.png)
   
-* Thank You Page for media max-width: 1200px:
+* Gallery Page
+
+![Gallery Page](assets/media-screen-img/iPad-768x1024-gallery.png)
   
-![Thank You Page for media max-width: 1200px](assets/media-screen-img/thank-you-page-1200px.jpg)
+* Contact Us Page
+
+![Contact Us Page](assets/media-screen-img/iPad-768x1024-contact-us.png)
+  
+* Thank You Page
+  
+![Thank You Page](assets/media-screen-img/iPad-768x1024-thank-you.png)
+
+#### **Desktop screens**
+* Home Page
+
+![Home Page](assets/media-screen-img/Laptop-2-1280x800-home.png)
+
+* Benefits Page
+
+![Benefits Page](assets/media-screen-img/Laptop-2-1280x800-benefits.png)
+  
+* Gallery Page
+
+![Gallery Page](assets/media-screen-img/Laptop-2-1280x800-gallery.png)
+  
+* Contact Us Page
+
+![Contact Us Page](assets/media-screen-img/Laptop-2-1280x800-contact-us.png)
+  
+* Thank You Page
+  
+![Thank You Page](assets/media-screen-img/Laptop-2-1280x800-thank-you.png)
